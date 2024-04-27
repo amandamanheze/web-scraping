@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arsenal', sans-serif;
+}
+#keyword, #scrape {
+    width: 80%;
+    margin-bottom: 20px;
+}
+#results {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.product img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: #232f3e;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav-link {
+    color: #48a3c6;
+}
+.btn-primary {
+    background-color: #e47911;
+    border-color: #e47911;
+    padding-top: 1px;
+}
+.navbar-brand {
+    height: 80px;
+}
+.navbar-brand img {
+    height: 100%;
+    object-fit: contain;
+    width: 105px;
+    margin-top: 4px
+}
+.card-img-top {
+    width:300px;
+    height: 250px;
+    object-fit: contain;
+}
+.card-title {
+    font-weight: 600;
+}
+.container-fluid {
+    width: 45%;
+}
